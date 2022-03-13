@@ -222,7 +222,14 @@ git push
     
     
     
-    
+## docker commands
+
+```
+
+docker build -t circleci_haresh .
+docker image ls
+docker push hareshkm999/circleci_haresh:1.0
+```
     
     
     
