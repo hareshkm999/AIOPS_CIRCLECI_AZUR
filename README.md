@@ -228,7 +228,9 @@ git push
 
 docker build -t circleci_haresh .
 docker image ls
-docker push hareshkm999/circleci_haresh:1.0
+docker login
+docker tag 0cdd7a19c265 hareshkm999/circleci_haresh:firsttry
+docker push hareshkm999/circleci_haresh:firsttry
 ```
     
     
